@@ -1,0 +1,36 @@
+<?
+return array
+(   
+    'ajax/fileLoad' => 'file/loadFile',
+    'ajax/addrowtoteacher'=>'table/addRowToteacher',
+    'ajax/addrowtoaudit' => 'table/addRowToaudit',
+    'ajax/addrowtocorp'=> 'table/addRowTocorp',
+    'ajax/addrowtosubj' => 'table/addRowTosubj',
+    'ajax/addrowtogroup' => 'table/addRowTogroup',
+    'ajax/teacherList' => 'table/teacherList',
+    'ajax/addtoraspisanie' =>'table/addRowToRaspisanie',
+    'ajax/addtopara/([0-9]+:[0-9]+)/([0-9]+:[0-9]+)' =>'table/addRowToPara/$1/$2',
+    'ajax/teacher/([0-9]+-[0-9]+-[0-9]+)/([0-9]+)' => 'table/teacher/$1/$2',
+    'ajax/group/([0-9]+-[0-9]+-[0-9]+)/([0-9]+)' => 'table/group/$1/$2',
+    'ajax/audit/([0-9]+-[0-9]+-[0-9]+)/([0-9]+)' => 'table/audit/$1/$2',
+    'admin/file/([0-9]+)' => 'file/showfile/$1',
+    'user/logout' => 'user/logout',
+    'admin/login' => 'user/index',
+    'admin/setfile' => 'admin/setfile',
+    'admin/file' => 'admin/file',
+    'admin/add/([a-z]+)' => 'admin/addRow/$1',
+    'admin/delete/([a-z]+)/([0-9]+)' => 'admin/deliteRow/$1/$2',
+    'admin/truncate/([a-z]+)' => 'admin/truncateTable/$1',
+    'admin/rewrite/([a-z]+)/([0-9]+)'=>'admin/rewrite/$1/$2',
+    'admin/([a-z]+)' => 'admin/handler/$1',
+    'admin' => 'admin/index',
+    'admin/raspisanie'=> 'admin/index',
+    'admin/insert/([0-9]+)' => 'file/insertIntoDB/$1',
+    'terminal' => 'terminal/index',
+    'terminal/([a-z]+)' => 'terminal/showlist/$1',
+    'terminal/([a-z]+)/([0-9]+)' => 'terminal/date/$1/$2',
+    'terminal/([a-z]+)/([0-9]+)/([0-9]+-[0-9]+-[0-9]+)' => 'terminal/show/$1/$2/$3',
+    'test'=>'terminal/test',
+    '' => 'table/index'
+);
+?>

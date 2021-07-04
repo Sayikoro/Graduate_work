@@ -1,0 +1,2 @@
+<a title="Добавить строку в таблицу"  href="/admin/add/<?echo $link?>" class='media  text-dark mb-2 ml-3 btn p-2 ' style='box-shadow: none !important;' > <i class=""><img src="<?ROOT?>/Views/Template/img/add2.svg" alt="Добавить строку"  class="" style='width:25px;height:25px;'></i></a>
+<a title="Очистить таблицу" href="/admin/truncate/<?echo $link?>" class='media  text-dark mb-2 ml-2 btn  p-2 ' style='box-shadow: none !important;'>  <i class=""><img src="<?ROOT?>/Views/Template/img/trash.svg" alt="Очистить таблицу" style='width:25px;height:25px;' ></i></a>
